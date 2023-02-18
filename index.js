@@ -9,7 +9,7 @@ function getMenu() {
                 <div class="card-body" style="padding: 0.5rem 0.5rem;" >   
                 <span style="display:flex ;justify-content:space-between;color:black"> 
                 <p class="card-title" >${response[item].name}</p>
-                <p class="card-text">Price : ${response[item].price}</p>
+                <p class="card-text">Price : $${response[item].price}</p>
                 </span>      
                 </div>   
                </div><br/>`
